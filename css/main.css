@@ -1,0 +1,167 @@
+/***** BASE STYLES *****/
+
+body {
+  font-family: 'Karla', sans-serif;
+  color: #8585ad;
+  font-size: 24px;
+}
+
+#about, #portfolio, #contact {
+  height: 600px;
+}
+
+/***** GRID *****/
+
+.full-width {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.half-width {
+  width: 600px;
+  float: left;
+}
+
+.third-width {
+  width: 400px;
+  float: left;
+}
+
+/***** HEADER *****/
+
+header {
+  height: 800px;
+  background: #e0e0eb;
+}
+
+header h1 {
+  color: #19bfa1;
+  font-family: 'Lusitana', serif;
+  font-size: 36px;
+  font-weight: 600;
+  padding: 60px 0 60px 0;
+}
+
+nav {
+  float: right;
+  padding: 60px 0 60px 0;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+nav ul li a {
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 400;
+  color: #7389ae;
+  padding-left: 60px;
+}
+
+header h2 {
+  clear: both;
+  font-family: 'Lusitana', serif;
+  font-size: 58px;
+  line-height: 150%;
+}
+
+header h2 span {
+  color: #211a1d;
+}
+
+/***** ABOUT *****/
+
+#about .full-width {
+  padding-top: 60px;
+}
+
+#about h2 {
+  font-family: 'Lusitana', serif;
+  font-size: 36px;
+  font-weight: 700;
+  padding-left: 50px;
+  text-align: center;
+}
+
+#about p {
+  line-height: 36px;
+  padding: 0 50px 0 50px;
+}
+
+/***** WORK *****/
+
+#portfolio {
+  background-color: #e0e0eb;
+  text-align: center;
+}
+
+#portfolio .full-width {
+  padding-top: 60px;
+}
+
+#portfolio img {
+  width: 300px;
+  height: auto;
+  padding: 30px 0 15px 0;
+}
+
+#portfolio h2 {
+  font-family: 'Lusitana', serif;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 48px;
+}
+
+#portfolio h3 {
+  margin: 10px;
+}
+
+#portfolio p {
+  color: #211a1d;
+  font-size: 20px;
+}
+
+/***** CONTACT *****/
+
+#contact {
+  text-align: center;
+}
+
+#contact .full-width {
+  padding-top: 60px;
+}
+
+#contact h2 {
+  font-family: 'Lusitana', serif;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 48px;
+}
+
+#contact a {
+  color: #211a1d;
+  text-decoration: none;
+}
+
+#contact ul{
+  list-style: none;
+}
+
+#contact ul li {
+  display: inline-block;
+}
+
+#contact ul img {
+  max-width: 60px;
+  height: auto;
+  padding: 12px 60px 0 0;
+}
+
+/***** FOOTER *****/
+
+footer {
+  text-align: center;
+  text-transform: uppercase;
+}
